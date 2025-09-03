@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: build-deploy
 
 # Controls when the workflow will run
 on:
@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Use Node.js 22
-        uses: actions/setup-node@2
+        uses: actions/setup-node@v5
         with:
           node-version: 22
 
