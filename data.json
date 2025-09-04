@@ -1,9 +1,20 @@
 {
-    "title": "Schramm42",
+    "title": "FlowM8",
     "items": {
+        "features": {
+            "title": "Features",
+            "description": "Discover the amazing features we offer to enhance your experience. From user-friendly interfaces to powerful tools, we have it all."
+        },
         "pricing": {
             "title": "Pricing",
-            "description": "Our pricing plans are designed to fit your needs and budget. Choose the plan that works best for you and enjoy our services."
+            "description": "Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization."
+        },
+        "contact": {
+            "title": "Contact",
+            "description": "We're here to help. Feel free to reach out to us through our contact form or our email. We'd love to hear from you!"
         }
+    },
+    "footer": {
+        "copyright": "© 2023 Schramm42. All rights reserved."
     }
 }

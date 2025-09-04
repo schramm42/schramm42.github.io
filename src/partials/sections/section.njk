@@ -1,0 +1,7 @@
+<section id="{{ name }}" class="my-5 text-center">
+    <h1>{{ item.title }}</h1>
+    <p class="fs-5 text-body-secondary">{{ item.description }}</p>
+    <div class="mt-5">
+        {% block content %}{% endblock %}
+    </div>
+</section>

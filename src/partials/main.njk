@@ -1,0 +1,5 @@
+<main>
+  {% for name, item in items %}
+    {% include "partials/sections/" + name + ".njk" ignore missing %}
+  {% endfor %}
+</main>
