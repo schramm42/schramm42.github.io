@@ -11,7 +11,11 @@ const outputDir = 'dist';
 const copyJSFiles = (cb) => {
   return src([
     'src/js/*.js',
-    'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
+    'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
+    'node_modules/i18next/dist/umd/i18next.min.js',
+    'node_modules/i18next-browser-languagedetector/dist/umd/i18nextBrowserLanguageDetector.min.js',
+    'node_modules/jquery-i18next/dist/umd/jquery-i18next.min.js',
+    'node_modules/jquery/dist/jquery.min.js'
   ])
     .pipe(dest(`${outputDir}/js`));
 };
